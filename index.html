@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FromSoftware</title>
+    <title>FromSoftware - Home</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/banner.css">
 </head>
 <body>
-    <header id="navbar">
-        <div id="navleft">
+    <header>
+        <div id="headerLeft">
             <a href="index.html"><img src="images/logo.png" id="logo" alt="Fromsoftware logo"></a>
             <img src="images/controller.png" onclick="openModal()" id="controllerLogo" title="Track Your Games" alt="trackgame">
         </div>
-        <div id="navright">
-            <a href="" >
+        <nav>
+            <a href="./html/soulslike.html" >
                 <div id="SoulsLikePage" class="button">
                     Soulslike
                 </div>
             </a>
-            <a href="">
+            <a href="./html/games.html">
                 <div id="GamesPage" class="button">
                     Games
                 </div>
             </a>
-            <a href="" >
+            <a href="./html/company.html" >
                 <div id="CompanyPage" class="button">
                     Company
                 </div>
             </a>
-        </div>
+        </nav>
     </header>
-    <div id="main">
-        
+    <div id="middle">
+        <div id="main">
+            <div id="banner">
+                <img src="./images/banner images/banner1.png">
+                <img src="./images/banner images/banner2.png">
+                <img src="./images/banner images/banner3.png">
+                <img src="./images/banner images/banner4.png">
+                <img src="./images/banner images/banner5.png">
+                <img src="./images/banner images/banner6.png">
+                <img src="./images/banner images/banner7.png">
+                <span id="bannerleft" onclick="Left()">&lt;</span>
+                <span id="bannerright" onclick="Right()">&gt;</span>
+            </div>
+            <div id="pager"></div>
+        </div>
     </div>
     <footer>
         
@@ -43,6 +58,7 @@
             <img src="images/github.png" alt="github logo">
         </a>
     </footer>
+    <script src="js/banner.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
