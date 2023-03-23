@@ -1,4 +1,4 @@
-document.getElementById("SoulsLikePage").onmousemove = (e) => {
+document.getElementById("SoulslikePage").onmousemove = (e) => {
 	gradient(e)
 }
 document.getElementById("GamesPage").onmousemove = (e) => {
@@ -13,7 +13,7 @@ function gradient(e) {
 	e.target.style.setProperty('--x', `${ x }px`)
 	e.target.style.setProperty('--y', `${ y }px`)
 }
-document.getElementById("SoulsLikePage").onmouseleave = (e) => {
+document.getElementById("SoulslikePage").onmouseleave = (e) => {
 	e.target.style.setProperty('--x', `${ 0 }px`)
 	e.target.style.setProperty('--y', `${ 50 }px`)
 }

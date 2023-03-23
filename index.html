@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,17 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/banner.css">
 </head>
+
 <body>
     <header>
         <div id="headerLeft">
             <a href="index.html"><img src="images/logo.png" id="logo" alt="Fromsoftware logo"></a>
-            <img src="images/controller.png" onclick="openModal()" id="controllerLogo" title="Track Your Games" alt="trackgame">
+            <img src="images/controller.png" onclick="openModal()" id="controllerLogo" title="Track Your Games"
+                alt="trackgame">
         </div>
         <nav>
-            <a href="./html/soulslike.html" >
-                <div id="SoulsLikePage" class="button">
+            <a href="./html/soulslike.html">
+                <div id="SoulslikePage" class="button">
                     Soulslike
                 </div>
             </a>
@@ -26,7 +29,7 @@
                     Games
                 </div>
             </a>
-            <a href="./html/company.html" >
+            <a href="./html/company.html">
                 <div id="CompanyPage" class="button">
                     Company
                 </div>
@@ -43,14 +46,70 @@
                 <img src="./images/banner images/banner5.png">
                 <img src="./images/banner images/banner6.png">
                 <img src="./images/banner images/banner7.png">
-                <span id="bannerleft" onclick="Left()">&lt;</span>
-                <span id="bannerright" onclick="Right()">&gt;</span>
+                <span id="bannerleft" onclick="Left()"></span>
+                <span id="bannerright" onclick="Right()"></span>
             </div>
             <div id="pager"></div>
+            <section id="trailer">
+                <div id="trailerDescription">
+                    <h2>ARMORED CORE VI trailer</h2>
+
+                    <P>There has only been one Armored Core 6 trailer so far, and that was revealed at the Game Awards
+                        in 2022. It, unfortunately, does not feature any actual gameplay or in-engine action, but as
+                        always it is a standout reveal of the game from FromSoftware.</P>
+
+                    <P>The first section of the trailer focuses generally on the world itself - which might possibly be
+                        called Rubicon if the title is anything to go by. We see blood-red flames engulf a planet, but
+                        then are cut to frozen wastes, implying that the fire is definitely something to fear.</P>
+
+                    <P>The latter half of the trailer is, on the other hand, packed full of exciting mech and robot
+                        combat. Multiple different combat types were shown, with mechs wielding weapons, chucking bombs,
+                        and even throwing hands.</P>
+
+                    <P>Hopefully, we will get a gameplay trailer soon if the game is still set to release in 2023, but
+                        this teasing announcement is certainly enough to fuel the flames of many players' excitement for
+                        now.</P>
+
+                </div>
+                <iframe src="https://www.youtube.com/embed/YRyRv0bwH2o" allow="fullscreen" frameborder="0" id="YouTube"></iframe>
+            </section>
+            <hr>
+            <section>
+                <h2>Which one was your favorite game?</h2>
+                <div  id="form">
+                    <div id="inputs">
+                        <label for="inputName">Name:</label>
+                        <input type="text" name="inputName" id="inputName">
+                        <label for="inputAnonym"><input type="checkbox" name="inputAnonym" id="inputAnonym">Anonym</label>
+                        <br>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Add your comment here"></textarea>
+                        <div>
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                    <div id="radioButtons">
+                       
+                        <label><input type="radio" name="game" id="radioDemonssoul"> Demon's Soul</label>
+                        
+                        <label><input type="radio" name="game" id="radioDs1"> Dark Souls I</label>
+                        
+                        <label><input type="radio" name="game" id="radioDs2"> Dark Souls II</label>
+                        
+                        <label><input type="radio" name="game" id="radioDs3"> Dark Souls III</label>
+                        
+                        <label><input type="radio" name="game" id="radioBloodborne"> Bloodborne</label>
+                        
+                        <label><input type="radio" name="game" id="radioSekiro"> Sekiro</label>
+                        
+                        <label><input type="radio" name="game" id="radioEldenRing"> Elden Ring</label>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
     <footer>
-        
+
         <div>
             &copy Minden fog fenntartva - mcbulazs
         </div>
@@ -61,4 +120,5 @@
     <script src="js/banner.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
