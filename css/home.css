@@ -50,6 +50,9 @@
     flex-direction: column;
     align-items: flex-start;
 }
+#inputName::placeholder{
+    color: red;
+}
 #inputName,#comment{
     width: 100%;
     resize: none;

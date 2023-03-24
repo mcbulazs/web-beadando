@@ -64,7 +64,10 @@ nav{
 
 
 
-
+:root{
+    --x: 0;
+	--y: 50px;
+}
 .button {
     color:rgba(70, 70, 70, 1);
     text-decoration: none;
@@ -75,13 +78,15 @@ nav{
     transition: color ease 0.5s;
     font-size: 1vw;
     width: 13vw;
-	--x: 0;
-	--y: 50px;
+	
 	padding: 0.8em 2em;
 	cursor: pointer;
 	border-radius: 20px 20px 20px 100px;
 	border: 2px solid transparent;
-	background: linear-gradient(#151515, #151515) padding-box, border-box radial-gradient(farthest-corner at var(--x) var(--y), #998200, #000000);
+	/*background: linear-gradient(#151515, #151515) padding-box, border-box radial-gradient(farthest-corner at var(--x) var(--y), #998200, #000000);*/
+    background: linear-gradient(#151515, #151515) padding-box, 
+            border-box radial-gradient(farthest-corner at var(--x) var(--y), #998200, #000000);
+background-origin: padding-box, border-box;
 }
 .button:hover{
     color:rgba(150, 150, 150, 1);

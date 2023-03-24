@@ -91,25 +91,25 @@
                         <br>
                         <textarea maxlength="255" name="comment" id="comment" cols="30" rows="10" placeholder="Add your comment here"></textarea>
                         <div>
-                            <input type="reset" value="Reset">
-                            <input type="submit" value="Submit">
+                            <input type="reset" onclick="reset()" value="Reset">
+                            <input type="submit" onclick="submit()" value="Submit">
                         </div>
                     </div>
                     <div id="radioButtons">
                        
-                        <label><input type="radio" name="game" id="radioDemonssoul"> Demon's Soul</label>
+                        <label><input type="radio" name="game" value="Demon's Soul" checked> Demon's Soul</label>
                         
-                        <label><input type="radio" name="game" id="radioDs1"> Dark Souls I</label>
+                        <label><input type="radio" name="game" value="Dark Souls I"> Dark Souls I</label>
                         
-                        <label><input type="radio" name="game" id="radioDs2"> Dark Souls II</label>
+                        <label><input type="radio" name="game" value="Dark Souls II"> Dark Souls II</label>
                         
-                        <label><input type="radio" name="game" id="radioDs3"> Dark Souls III</label>
+                        <label><input type="radio" name="game" value="Dark Souls III"> Dark Souls III</label>
                         
-                        <label><input type="radio" name="game" id="radioBloodborne"> Bloodborne</label>
+                        <label><input type="radio" name="game" value="Bloodborne"> Bloodborne</label>
                         
-                        <label><input type="radio" name="game" id="radioSekiro"> Sekiro</label>
+                        <label><input type="radio" name="game" value="Sekiro"> Sekiro</label>
                         
-                        <label><input type="radio" name="game" id="radioEldenRing"> Elden Ring</label>
+                        <label><input type="radio" name="game" value="Elden Ring"> Elden Ring</label>
                     </div>
                 </div>
             </section>
@@ -141,6 +141,8 @@
             <img src="images/github.png" alt="github logo">
         </a>
     </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/script.js"></script>

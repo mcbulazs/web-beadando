@@ -1,3 +1,7 @@
+:root{
+    --x: 0;
+	--y: 50px;
+}
 #GamesPage{
 	background: linear-gradient(#151515, #151515) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), yellow, #000000) border-box;
 }
