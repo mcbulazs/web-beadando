@@ -89,6 +89,23 @@
             </article>
             </div>
     </div>
+    <div id="modal">
+        <div id="modalPanel">
+            <span id="modalClose" onclick="closeModal()">X</span>
+            <h3>
+                Track What Games You Have Completed
+            </h3>
+            <div id="modalCheckbox">
+                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox1">Demon's Soul</label>
+                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox2">Dark Souls I</label>
+                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox3">Dark Souls II</label>
+                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox4">Dark Souls III</label>
+                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox5">Bloodborne</label>
+                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox6">Sekiro: Shadow Die Twice</label>
+                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox7">Elden Ring</label>
+            </div>
+        </div>
+    </div>
     <footer>
 
         <div>
@@ -98,6 +115,7 @@
             <img src="../images/github.png" alt="github logo">
         </a>
     </footer>
+    <script src="../js/modal.js"></script>
     <script src="../js/script.js"></script>
 </body>
 
