@@ -63,28 +63,7 @@
     justify-content: center;
     gap: 0.6vh;
 }
-.contentSlicer{
-    width: 100%;
-    display: flex;
-    justify-content: left;
-}
-.firstHr{
-    margin-right: 0;
-    height: 0.2vh;
-    width: 50%;
-    background: linear-gradient(to left, #998200, #333333);
-    border: none;
-}
-.secondHr{
-    margin-left: 0;
-    width: 50%;
-    background: linear-gradient(to right, #998200, #333333);
-    height: 0.2vh;
-    border: none;
-}
-.smallerHr{
-    width: 30%;
-}
+
 #formTitle{
     font-weight: normal;
     font-family: metamorphousregular;
