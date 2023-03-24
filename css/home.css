@@ -10,29 +10,94 @@
     float: left;
 }
 #trailerDescription{
+    font-family: calibri;
     float: left;
     flex-shrink: 10;
     text-align: justify;
+    text-align-last: center;
+}
+#trailerDescription>h2{
+    font-size: 2vw;
+    font-weight: normal;
+    font-family: metamorphousregular;
+}
+#trailerDescription>p{
+    margin: auto 1vw 1vh 1vw;
+    width: 90%;
+    font-size: 0.8em;
+}
+#trailertrailer{
+    font-family: sans-serif;
+    font-size: 0.7em;
 }
 #YouTube{
     float: right;
     width: 50%;
     aspect-ratio: 16/9;
+    border: none;
 }
 #form{
+    gap: 5%;
     padding: 0 5% 5% 5%;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
 }
 #inputs{
-    width: 50%;
+    width: 25%;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: flex-start;
+}
+#inputName,#comment{
+    width: 100%;
+    resize: none;
+}
+#inputAnonym{
+    margin-left: 0;
 }
 #radioButtons{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 0.6vh;
+}
+.contentSlicer{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.firstHr{
+    margin-right: 0;
+    height: 0.2vh;
+    width: 50%;
+    background: linear-gradient(to left, #998200, #333333);
+    border: none;
+}
+.secondHr{
+    margin-left: 0;
+    width: 50%;
+    background: linear-gradient(to right, #998200, #333333);
+    height: 0.2vh;
+    border: none;
+}
+.smallerHr{
+    width: 30%;
+}
+#formTitle{
+    font-weight: normal;
+    font-family: metamorphousregular;
+    text-align: center;
+    color: white;
+}
+
+
+@font-face {
+    font-family: 'metamorphousregular';
+    src: url('../fonts/metamorphous/metamorphous-regular-webfont.woff2') format('woff2'),
+         url('../fonts/metamorphous/metamorphous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }

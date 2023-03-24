@@ -39,20 +39,20 @@
     <div id="middle">
         <div id="main">
             <div id="banner">
-                <img src="./images/banner images/banner1.png">
-                <img src="./images/banner images/banner2.png">
-                <img src="./images/banner images/banner3.png">
-                <img src="./images/banner images/banner4.png">
-                <img src="./images/banner images/banner5.png">
-                <img src="./images/banner images/banner6.png">
-                <img src="./images/banner images/banner7.png">
+                <img src="./images/bannerImages/banner1.png" alt="Demons's Soul Banner">
+                <img src="./images/bannerImages/banner2.png" alt="Dark Souls I Banner">
+                <img src="./images/bannerImages/banner3.png" alt="Dark Souls II Banner">
+                <img src="./images/bannerImages/banner4.png" alt="Dark Souls III Banner">
+                <img src="./images/bannerImages/banner5.png" alt="Bloodborne Banner">
+                <img src="./images/bannerImages/banner6.png" alt="Sekiro Banner">
+                <img src="./images/bannerImages/banner7.png" alt="Elden Ring Banner">
                 <span id="bannerleft" onclick="Left()"></span>
                 <span id="bannerright" onclick="Right()"></span>
             </div>
             <div id="pager"></div>
             <section id="trailer">
                 <div id="trailerDescription">
-                    <h2>ARMORED CORE VI trailer</h2>
+                    <h2>ARMORED CORE VI <span id="trailertrailer">trailer</span></h2>
 
                     <P>There has only been one Armored Core 6 trailer so far, and that was revealed at the Game Awards
                         in 2022. It, unfortunately, does not feature any actual gameplay or in-engine action, but as
@@ -71,18 +71,25 @@
                         now.</P>
 
                 </div>
-                <iframe src="https://www.youtube.com/embed/YRyRv0bwH2o" allow="fullscreen" frameborder="0" id="YouTube"></iframe>
+                <iframe src="https://www.youtube.com/embed/YRyRv0bwH2o" allow="fullscreen" id="YouTube"></iframe>
             </section>
-            <hr>
+            <div class="contentSlicer">
+                <hr class="firstHr">
+                <hr class="secondHr">
+            </div>
             <section>
-                <h2>Which one was your favorite game?</h2>
+                <h2 id="formTitle">Which one was your favorite game?</h2>
+                <div class="contentSlicer">
+                    <hr class="firstHr smallerHr">
+                    <hr class="secondHr smallerHr">
+                </div>
                 <div  id="form">
                     <div id="inputs">
                         <label for="inputName">Name:</label>
                         <input type="text" name="inputName" id="inputName">
                         <label for="inputAnonym"><input type="checkbox" name="inputAnonym" id="inputAnonym">Anonym</label>
                         <br>
-                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Add your comment here"></textarea>
+                        <textarea maxlength="255" name="comment" id="comment" cols="30" rows="10" placeholder="Add your comment here"></textarea>
                         <div>
                             <input type="reset" value="Reset">
                             <input type="submit" value="Submit">
@@ -111,7 +118,7 @@
     <footer>
 
         <div>
-            &copy Minden fog fenntartva - mcbulazs
+            &copy; Minden fog fenntartva - mcbulazs
         </div>
         <a href="https://github.com/mcbulazs/web-beanado" target="_blank">
             <img src="images/github.png" alt="github logo">
