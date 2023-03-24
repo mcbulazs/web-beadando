@@ -29,12 +29,14 @@ header{
     user-select: none;
 }
 #headerLeft>a{
+    width: 50%;
     height: 100%;
     display: flex;
+    margin-right:50% ;
     align-items: center;
 }
 #logo{
-    width: 50%;
+    width: 100%;
     cursor: pointer;
     margin-left: 5%;
     filter: opacity(50%);
