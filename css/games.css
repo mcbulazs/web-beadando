@@ -10,7 +10,17 @@
 	color: white;
 	text-align: justify;
 }
-p,h2{
+
+h1{
+	font-size: 2vw;
+}
+h2{
+	
+	font-size: 1.5vw;
+	margin: 0 10%;
+}
+p{
+	font-size: 0.8vw;
 	margin: 0 10%;
 }
 #kingsfield{
@@ -28,8 +38,8 @@ p,h2{
 	aspect-ratio: 1/1;
 	padding: 5%;
 	margin: 0 10%;
-	border-left: white solid 2px;
-	border-bottom: white solid 2px;
+	border-left: white solid 0.2vw;
+	border-bottom: white solid 0.2vw;
 }
 #demonssoul{
 	margin-top: 10vh;
@@ -44,8 +54,8 @@ p,h2{
 	aspect-ratio: 1/1;
 	padding: 5%;
 	margin: 0 10%;
-	border-right: white solid 2px;
-	border-top: white solid 2px;
+	border-right: white solid 0.2vw;
+	border-top: white solid  0.2vw;
 }
 #demonssoul h2{
 	margin: 0;

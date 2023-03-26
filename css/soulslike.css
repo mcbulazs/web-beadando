@@ -11,22 +11,39 @@
 }
 
 p{
+	font-size: 1vw;
 	text-align: justify;
 }
+h1{
+	font-size: 2vw;
+}
+h2{
+	font-size: 1.5vw;
+}
+h3{
+	margin: 2vh 0;
+	font-size: 1.2vw;
+}
 article>div{
-	display: flex;
-	gap: 10%;
+	height: 35vh;
 }
 article>div>img{
-	width: 40%;
+	margin: 0 5%;
+	width: 30%;
+	float: right;
+}
+article>div>p{
+	width: 60%;
+	float: left;
 }
 table{
-	border: 2px solid white;
+	border: 0.2vw solid white;
 	margin: auto;
 	width: 60%;
 }
 th,td{
-	border: 2px solid white;
+	font-size: 1vw;
+	border: 0.2vw solid white;
 
 	padding-left: 2%;
 	padding-right: 2%;

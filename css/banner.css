@@ -1,6 +1,5 @@
 
-#banner{
-    /* border: 1px solid red; */
+#banner{    
     width: 100%;
     aspect-ratio: 3.5/1;
     overflow: hidden;
@@ -8,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1vw;
     user-select: none;
 }
 #bannerleft, #bannerright{
@@ -30,11 +29,11 @@
     top: -0.7vw;
     display: flex;
     justify-content: center;
-    gap: 4px;
+    gap: 0.2vw;
 }
 .pager-button{
-    width: 10px;
-    height: 10px;
+    width: 0.5vw;
+    height: 0.5vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
