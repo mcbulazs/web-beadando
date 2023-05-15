@@ -1,5 +1,6 @@
 
 #banner{    
+    z-index: 4;
     width: 100%;
     aspect-ratio: 3.5/1;
     overflow: hidden;

@@ -93,13 +93,7 @@ background-origin: padding-box, border-box;
     color:rgba(150, 150, 150, 1);
 }
 
-@font-face {
-    font-family: 'cinzelregular';
-    src: url('../fonts/cinzel/cinzel-variablefont_wght-webfont.woff2') format('woff2'),
-         url('../fonts/cinzel/cinzel-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 footer{
     background-color: #191919;
@@ -130,6 +124,7 @@ footer img{
     height: 100%;
     width: 66%;
     margin: auto;
+    color: white;
     
     background-color: rgba(51, 51, 51,0.9);
 }
@@ -177,6 +172,8 @@ h1{
     background-color: #333333;
     width: 20%;
     height: 50%;
+    padding: 1%;
+    border-radius: 5%;
 }
 #modalPanel>h3{
     text-align: center;
@@ -201,4 +198,56 @@ h1{
     position: absolute;
     top: 0.25vw;
     right:0.25vw;
+    margin: 2% 2%;
+}
+
+#colorChanger{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 3%;
+    user-select: none;
+    cursor: pointer;
+    filter: invert(68%) sepia(99%) saturate(1197%) hue-rotate(359deg) brightness(102%) contrast(106%);
+}
+
+.Amber *:not(input,textarea,label){
+    color: #FFBF00!important;
+    font-size: 1.2vw!important;
+    font-family: sans-serif!important;
+    line-height: 110%!important;
+    /*text-align: left!important;
+    text-align-last:inherit!important ;*/
+ }
+
+@media print {
+    header,footer,iframe,.contentSlicer{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #main *{
+        color: black!important;
+    }
+    
+ }
+
+
+ @font-face {
+    font-family: 'cinzelregular';
+    src: url('../fonts/cinzel/cinzel-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/cinzel/cinzel-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'metamorphousregular';
+    src: url('../fonts/metamorphous/metamorphous-regular-webfont.woff2') format('woff2'),
+         url('../fonts/metamorphous/metamorphous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

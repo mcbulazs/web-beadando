@@ -25,3 +25,14 @@ document.getElementById("CompanyPage").onmouseleave = (e) => {
 	e.target.style.setProperty('--x', `${ 0 }px`)
 	e.target.style.setProperty('--y', `${ 50 }px`)
 }
+var a = true
+function colorChange() {
+	if (a) {
+		document.getElementById("main").classList.add("Amber")
+		a = false
+	}else{
+		a=true
+		document.getElementById("main").classList.remove("Amber")
+	}
+	
+}

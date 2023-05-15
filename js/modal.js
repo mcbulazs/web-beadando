@@ -3,7 +3,7 @@ function openModal() {
     document.getElementById("modal").style.visibility = "visible"
 }
 function closeModal() {
-    document.body.style.overflow = "scroll"
+    document.body.style.overflow = "visible"
     document.getElementById("modal").style.visibility = "hidden"
 }
 function checkBoxChanged(id) {

@@ -24,7 +24,6 @@
 #trailerDescription>p{
     margin: auto 1vw 1vw 1vw;
     width: 90%;
-
     font-size: 0.8vw;
 }
 #trailertrailer{
@@ -32,8 +31,8 @@
     font-size: 0.8vw;
 }
 #YouTube{
-    float: right;
     width: 50%; 
+    align-self: center;
     aspect-ratio: 16/9;
     border: none;
 }
@@ -80,12 +79,3 @@
     color: white;
 }
 
-
-@font-face {
-    font-family: 'metamorphousregular';
-    src: url('../fonts/metamorphous/metamorphous-regular-webfont.woff2') format('woff2'),
-         url('../fonts/metamorphous/metamorphous-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
