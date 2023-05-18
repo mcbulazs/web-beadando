@@ -60,7 +60,7 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    font-family: Cinzel;
+    font-family: Cinzel,Times;
 }
 
 
@@ -72,7 +72,7 @@ nav{
 .button {
     color:rgba(70, 70, 70, 1);
     text-decoration: none;
-    font-family: cinzelregular;
+    font-family: cinzelregular,Times;
     font-weight: bold;
     text-align: center;
     display: inline-block;
@@ -94,7 +94,9 @@ background-origin: padding-box, border-box;
 }
 
 
-
+#main{
+    min-height: 100vh;
+}
 footer{
     background-color: #191919;
     width: 100%;
@@ -150,8 +152,18 @@ footer img{
 .smallerHr{
     width: 30%;
 }
+
 h1{
     text-align: center;
+	width: 66%;
+    margin: auto;
+	background-image: url('../images/titlebackground.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	line-height: 20vh;
+	font-size: 3.5vw;
+	font-family: cinzelregular,times;
+	color: white;
 }
 /*modal*/
 #modal{
@@ -194,7 +206,7 @@ h1{
     font-size: 2vh;
     cursor: pointer;
     user-select: none;
-    font-family: Arial;
+    font-family: Arial,serif;
     position: absolute;
     top: 0.25vw;
     right:0.25vw;
@@ -214,19 +226,20 @@ h1{
 .Amber *:not(input,textarea,label){
     color: #FFBF00!important;
     font-size: 1.2vw!important;
-    font-family: sans-serif!important;
+    font-family: sans-serif,serif!important;
     line-height: 110%!important;
     /*text-align: left!important;
     text-align-last:inherit!important ;*/
  }
 
 @media print {
-    header,footer,iframe,.contentSlicer{
+    header,footer,iframe,.contentSlicer,#colorChanger{
         display: none;
     }
     *{
         margin: 0;
         padding: 0;
+        font-size: 1.5vw!important;
     }
     #main *{
         color: black!important;
@@ -250,4 +263,14 @@ h1{
     font-weight: normal;
     font-style: normal;
 
+}
+@media only screen and (max-width: 576px) {
+
+	#main,h1{
+		width: 100%!important;
+	}   
+    
+	#main *{
+		font-size: 3vw;
+	}
 }

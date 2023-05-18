@@ -10,17 +10,6 @@
 	text-align: justify;
     padding: 5%;
 }
-h1{
-	width: 66%;
-    margin: auto;
-	background-image: url('../images/titlebackground.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	line-height: 20vh;
-	font-size: 3.5vw;
-	font-family: cinzelregular;
-	color: white;
-}
 h2{
 	margin: 2vh 10% ;
 	font-size: 1.5vw;
@@ -28,7 +17,7 @@ h2{
 p{
 	font-size: 0.75vw;
 	margin: 0 10%;
-	font-family: sans-serif;
+	font-family: sans-serif,serif;
 }
 #kingsfield{
 	margin-top: 10vh;
@@ -122,4 +111,36 @@ a:visited{
 }
 #eldenring{
 	margin: 10vh 0;
+}
+
+@media only screen and (max-width: 576px) {
+	img{
+		visibility: hidden;
+		display:none;
+		
+	}
+	#kingsfield{
+		margin: 0;
+	}
+	#kingsfield>div,#demonssoul>div{
+		margin: 0 5%;
+	}
+	main {
+		
+		margin: 0;
+		padding: 0;
+	}
+	article>div{
+		margin:0
+	}
+	p{
+		margin: 0% 5%;
+	}
+	#main{
+		padding: 0;
+	}
+	#eldenring{
+		margin-bottom: 0;
+	}
+
 }

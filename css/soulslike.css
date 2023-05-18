@@ -11,22 +11,8 @@
 p{
 	font-size: 0.8vw;
 	text-align: justify;
-	font-family: sans-serif;
+	font-family: sans-serif,serif;
 }
-h1{
-	width: 66%;
-    margin: auto;
-	background-image: url('../images/titlebackground.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	line-height: 20vh;
-	font-size: 3.5vw;
-	font-family: cinzelregular;
-	color: white;
-}
-/*h2{
-	font-size: 1.2vw;
-}*/
 h2{
 	margin: 2vh 0;
 	font-size: 1.1vw;

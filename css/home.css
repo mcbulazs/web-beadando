@@ -10,7 +10,7 @@
     float: left;
 }
 #trailerDescription{
-    font-family: calibri;
+    font-family: calibri,serif;
     float: left;
     flex-shrink: 10;
     text-align: justify;
@@ -19,7 +19,7 @@
 #trailerDescription>h2{
     font-size: 2vw;
     font-weight: normal;
-    font-family: metamorphousregular;
+    font-family: metamorphousregular,times;
 }
 #trailerDescription>p{
     margin: auto 1vw 1vw 1vw;
@@ -27,7 +27,7 @@
     font-size: 0.8vw;
 }
 #trailertrailer{
-    font-family: sans-serif;
+    font-family: sans-serif,serif;
     font-size: 0.8vw;
 }
 #YouTube{
@@ -74,8 +74,31 @@
     
     font-size: 1.5vw;
     font-weight: normal;
-    font-family: metamorphousregular;
+    font-family: metamorphousregular,times;
     text-align: center;
     color: white;
 }
 
+@media only screen and (max-width: 576px) {
+    #trailer{
+       flex-direction: column; 
+      
+    }
+    #trailerDescription>p{
+        font-size: 3vw!important;
+        width: 100%;
+        
+    }
+    #YouTube{
+        width: 100%;
+    }
+    #form{
+        flex-direction: column;
+    }
+    #form>div{
+        width: 100%;
+    }
+    #radioButtons{
+       margin-left: 40%;
+    }
+}

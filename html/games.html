@@ -13,9 +13,8 @@
 <body>
     <header>
         <div id="headerLeft">
-            <a href="../index.html"><img src="../images/logo.png" id="logo" alt="Fromsoftware logo"></a>
-            <img src="../images/controller.png" onclick="openModal()" id="controllerLogo" title="Track Your Games"
-                alt="trackgame">
+            <a href="../index.html"><img src="../images/logo.png" id="logo" title="Back to Home page"></a>
+            <img src="../images/controller.png" onclick="openModal()" id="controllerLogo" title="Track Your Games">
         </div>
         <nav>
             <a href="./soulslike.html">
@@ -213,17 +212,17 @@
                 Track What Games You Have Completed
             </h3>
             <div id="modalCheckbox">
-                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox1">Demon's Soul</label>
-                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox2">Dark Souls I</label>
-                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox3">Dark Souls II</label>
-                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox4">Dark Souls III</label>
-                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox5">Bloodborne</label>
-                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox6">Sekiro: Shadow Die Twice</label>
-                <label><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox7">Elden Ring</label>
+                <label for="modalCheckbox1"><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox1">Demon's Soul</label>
+                <label for="modalCheckbox2"><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox2">Dark Souls I</label>
+                <label for="modalCheckbox3"><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox3">Dark Souls II</label>
+                <label for="modalCheckbox4"><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox4">Dark Souls III</label>
+                <label for="modalCheckbox5"><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox5">Bloodborne</label>
+                <label for="modalCheckbox6"><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox6">Sekiro: Shadow Die Twice</label>
+                <label for="modalCheckbox7"><input class="checkBox" onclick="checkBoxChanged(id)" type="checkbox" id="modalCheckbox7">Elden Ring</label>
             </div>
         </div>
     </div>
-    <img src="../images/sun.png" id="colorChanger" onclick="colorChange()">
+    <img src="../images/sun.png" id="colorChanger" onclick="colorChange()" alt="Change Text Color">
     <footer>
 
         <div>
